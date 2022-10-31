@@ -1,0 +1,41 @@
+/* Colors */
+:root {
+    --fuchsia:rgb(229,49,112);
+    --blue:rgb(43,122,182);
+}
+
+
+ 
+/* Reset */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* Generics */
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+    
+
+h1 {
+    color: var(--fuchsia);
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/* Utils */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
