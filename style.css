@@ -1,19 +1,23 @@
 /* Colors */
+
 :root {
     --fuchsia:rgb(229,49,112);
-    --blue:rgb(43,122,182);
+    --blue:rgb(42,126,196);
 }
 
 
  
 /* Reset */
+
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
 }
 
+
 /* Generics */
+
 body {
     font-family: 'Fredoka', sans-serif;
 }
@@ -34,8 +38,49 @@ p {
 
 
 /* Utils */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+    width: calc(100% / 3);
+    padding: 10px;
+}
+    
+
+.row {
+    margin: 0 -1rem;
+}
+
+
+.card {
+    height: 120px;
+    color:white;
+    background-color: black; 
+}
+    
+    
+.image-card {
+    float: left;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.card-right {
+    padding: 10px;
+    line-height: calc(100px / 3);
+}
+
+a {
+    text-decoration: none;
+    color: var(--blue);
+}
